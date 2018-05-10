@@ -20,7 +20,6 @@ void Init_nokogiri_ext_xmlsec() {
   xmlInitParser();
   LIBXML_TEST_VERSION
   xmlLoadExtDtdDefaultValue = XML_DETECT_IDS | XML_COMPLETE_ATTRS;
-  xmlSubstituteEntitiesDefault(1);
   // xslt
 
 #ifndef XMLSEC_NO_XSLT
